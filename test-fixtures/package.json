@@ -1,0 +1,18 @@
+{
+  "name": "typescript-mcp-test-fixtures",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Test fixtures for TypeScript MCP server testing",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
+  }
+}
