@@ -6,6 +6,9 @@
 	"type": "module",
 	"private": true,
 	"main": "index.ts",
+	"bin": {
+		"mcp-typescript": "./index.ts"
+	},
 	"files": [
 		"index.ts",
 		"lib/**/*",
